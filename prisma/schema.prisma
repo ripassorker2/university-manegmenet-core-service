@@ -17,7 +17,7 @@ model User {
 
 model AcademicSemester {
   id         String    @id @default(uuid())
-  year       Int
+  year       String
   title      String
   code       String
   startMonth String
