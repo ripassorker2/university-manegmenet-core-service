@@ -24,6 +24,11 @@
             "date": 1694794892319,
             "name": "/home/rsr/My Computer/Web Devlopement/Next Lavel Devlopment/university-management-core-service-starter-main/logs/winston/errors/phu-2023-15-09-22-error.log",
             "hash": "108d3fabf10fbef450bccc697ebc355fea63e2188cfdf90bf1ab8296d1d2296c"
+        },
+        {
+            "date": 1694797745169,
+            "name": "/home/rsr/My Computer/Web Devlopement/Next Lavel Devlopment/university-management-core-service-starter-main/logs/winston/errors/phu-2023-15-09-23-error.log",
+            "hash": "3c23854968aef8391fc876a5b836d5d42404e04344ec515a8ce986f4e341315d"
         }
     ],
     "hashType": "sha256"
