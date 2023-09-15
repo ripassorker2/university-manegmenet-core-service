@@ -18,15 +18,7 @@ const createSemester = async (
   if (academicSemesterTitleCodeMapper[data.title] !== data.code) {
     throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid semester code..!!!');
   }
-
   const semester = await prisma.academicSemester.create({ data });
-
-  if (!semester) {
-    throw new ApiError(
-      httpStatus.BAD_REQUEST,
-      'Failed to create semester....!!!'
-    );
-  }
   return semester;
 };
 
